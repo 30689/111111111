@@ -1,0 +1,6 @@
+try:
+    number = input("введіть число: ")
+    number = int(number)
+    print("ціле число:", number)
+except ValueError:
+    print("помилка: введені дані не можна перетворити на ціле число.")
